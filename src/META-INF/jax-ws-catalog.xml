@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8733/Design_Time_Addresses/OpenGloveWCF/OGService/" uri="wsdl/localhost_8733/Design_Time_Addresses/OpenGloveWCF/OGService/index.xml"/>
+    <system systemId="http://localhost:8733/Design_Time_Addresses/OpenGloveWCF/OGService/?wsdl" uri="wsdl/localhost_8733/Design_Time_Addresses/OpenGloveWCF/OGService/.wsdl"/>
+    <system systemId="http://localhost:8733/Design_Time_Addresses/OpenGloveWCF/OGService/?xsd=xsd0" uri="wsdl/localhost_8733/Design_Time_Addresses/OpenGloveWCF/OGService/.xsd_xsd0.xsd"/>
+    <system systemId="http://localhost:8733/Design_Time_Addresses/OpenGloveWCF/OGService/?xsd=xsd1" uri="wsdl/localhost_8733/Design_Time_Addresses/OpenGloveWCF/OGService/.xsd_xsd1.xsd"/>
+    <system systemId="http://localhost:8733/Design_Time_Addresses/OpenGloveWCF/OGService/?xsd=xsd2" uri="wsdl/localhost_8733/Design_Time_Addresses/OpenGloveWCF/OGService/.xsd_xsd2.xsd"/>
+    <system systemId="http://localhost:8733/Design_Time_Addresses/OpenGloveWCF/OGService/?xsd=xsd3" uri="wsdl/localhost_8733/Design_Time_Addresses/OpenGloveWCF/OGService/.xsd_xsd3.xsd"/>
+</catalog>

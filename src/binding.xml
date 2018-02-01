@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jxb:bindings version="1.0"
+              xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+              xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <jxb:bindings 
+schemaLocation="http://localhost:8733/Design_Time_Addresses/OpenGloveWCF/OGService/?xsd=xsd0">
+        <jxb:schemaBindings>
+            <jxb:package name="org.tempuri" />
+        </jxb:schemaBindings>
+    </jxb:bindings>
+    <jxb:bindings 
+schemaLocation="http://localhost:8733/Design_Time_Addresses/OpenGloveWCF/OGService/?xsd=xsd1">
+        <jxb:schemaBindings>
+            <jxb:package name="com.microsoft.schemas._2003._10.serialization"/>
+        </jxb:schemaBindings>
+    </jxb:bindings>
+    <jxb:bindings 
+schemaLocation="http://localhost:8733/Design_Time_Addresses/OpenGloveWCF/OGService/?xsd=xsd2">
+        <jxb:schemaBindings>
+            <jxb:package name="org.datacontract.schemas._2004._07.openglovewcf"/>
+        </jxb:schemaBindings>
+    </jxb:bindings>    
+    <jxb:bindings 
+schemaLocation="http://localhost:8733/Design_Time_Addresses/OpenGloveWCF/OGService/?xsd=xsd3">
+        <jxb:schemaBindings>
+            <jxb:package name="com.microsoft.schemas._2003._10.serialization.arrays"/>
+            
+        </jxb:schemaBindings>
+    </jxb:bindings>
+    
+</jxb:bindings>
