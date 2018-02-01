@@ -34,7 +34,12 @@ public class DataReceiver{
             WSThread = new Thread(() -> {
                 WebSocketClient.connect();
                 WebSocketActive = true;
-                while (WebSocketActive == true) { }
+                while (WebSocketActive == true) {
+                    if(WebSocketClient.isOpen()!=true){
+                        WebSocketActive = false;
+                        break;
+                    }
+                }
             });
             WSThread.start();
         }   

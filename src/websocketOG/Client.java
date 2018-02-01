@@ -82,7 +82,8 @@ public class Client extends WebSocketClient{
     }
 
     @Override
-    public void onOpen(ServerHandshake sh) {     
+    public void onOpen(ServerHandshake sh) {
+        System.out.println("Client <"+this.getURI()+"> connected");
     }
     
     @Override
@@ -130,12 +131,13 @@ public class Client extends WebSocketClient{
 
     @Override
     public void onClose(int i, String string, boolean bln) {
+        System.out.println("Client <"+this.getURI()+"> closed");
        
     }
 
     @Override
     public void onError(Exception excptn) {
-      
+        System.out.println("Error check the glove connection");
     }
     
     
