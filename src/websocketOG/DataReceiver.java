@@ -23,10 +23,12 @@ public class DataReceiver{
     public DataReceiver(String WebSocketPort, String SerialPort){
         this.WebSocketPort = WebSocketPort;
         this.SerialPort = SerialPort;
-        WebSocketClient = new Client(URI.create("ws://localhost:"+WebSocketPort+"/"+SerialPort));
+        WebSocketClient = new Client(URI.create("ws://[::1]:"+WebSocketPort+"/"+SerialPort));
         try{
-            ReadData();
-        }catch(Exception e){}     
+            this.ReadData();
+        }catch(Exception e){
+            System.out.println("Problema al iniciar lectura de datos");
+        }     
     }
     
     public void ReadData(){
